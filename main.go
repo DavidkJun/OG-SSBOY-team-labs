@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package main
 
 import (
@@ -5,3 +6,8 @@ import (
   "net/http"
   "time"
 )
+=======
+type TimeResponse struct {
+  Time string json:"time"
+}
+>>>>>>> 1a2c3a4 (Added feature Yarik)
