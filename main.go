@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 package main
 
 import (
@@ -19,3 +20,9 @@ w.Header().Set("Content-Type", "application/json")
 json.NewEncoder(w).Encode(response)
 }
 >>>>>>> bd328e9 (Updated by Lev)
+=======
+func main() {
+	http.HandleFunc("/time", timeHandler)
+	http.ListenAndServe(":8795", nil)
+}
+>>>>>>> d46f04c (added artem feature)
